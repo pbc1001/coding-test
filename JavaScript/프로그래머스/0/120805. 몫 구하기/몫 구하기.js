@@ -1,4 +1,11 @@
 function solution(num1, num2) {
-    let a = num1 / num2
-    return Math.floor(a);
+    var answer = 0;
+    answer = parseInt(num1 / num2);
+    return answer;
 }
+
+const first = solution(10,5);
+const second = solution(7,2);
+
+console.log(first);
+console.log(second);
